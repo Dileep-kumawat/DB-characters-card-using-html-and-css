@@ -3,10 +3,10 @@
 A small static web project showcasing a set of Dragon Ball character cards. Each card contains an image, a title, a short description, and a "Follow" button. The project is built with plain HTML and CSS and uses a custom font and background images bundled in the repository.
 
 ## 🚀 Live Demo
-🔗 [View Live Website](https://dileep-kumawat.github.io//)
+🔗 [View Live Website](https://dileep-kumawat.github.io/DB-characters-card-using-html-and-css/)
 
 ## 📸 Preview
-![Website Preview](preview.png)
+![Website Preview](Preview.png)
 
 ## 🎥 Demo Video
 [Website Preview video](demo.mp4)
