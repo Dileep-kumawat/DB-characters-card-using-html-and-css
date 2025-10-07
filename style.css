@@ -1,0 +1,80 @@
+@font-face {
+    font-family: goku;
+    src: url(./Saiyan-Sans.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    background-image: url(./bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+#cards{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 40px;
+    gap: 30px;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    background-image: url(./card\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 30px orange;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.02) translateY(-5px);
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #A4180C;
+}
+.card h1{
+    color: #A4180C;
+    font-family: goku;
+    font-weight: 200;
+}
+.card p{
+    text-align: center;
+    color: #a4190cb6;
+}
+.card button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #A4180C;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.card button:hover{
+    background-color: #A4180C;
+    color: white;
+    transform: scale(1.02) translateY(-5px);
+}
